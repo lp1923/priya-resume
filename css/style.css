@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    line-height:1.5;
+    margin:0 auto;
+}
+.table-style-1{
+
+   
+    width: 800px;
+    
+}
+.table-style-1 tr{}
+.table-style-1 tr td,
+.table-style-1 tr th{
+    padding: 10px 20px;
+    border: solid 1px antiquewhite;
+}
+h2{
+    text-align: initial;
+   
+     color: rgb(223, 213, 213);
+     padding-top: 40px;
+     font-size: larger;
+     background-position: inherit;
+     text-decoration: underline;
+
+}
+body{
+    font-family: 'Amarante', cursive;
+    color: rgb(235, 229, 221);
+    background-color: lightyellow;
+    background-image: url(../images/background.jpg);
+    background-attachment:fixed;
+    line-height: auto;
+    background-size: auto;
+}
+h1{
+    font-family: 'Amarante', cursive;
+    font-family: 'Spicy Rice', cursive;
+    font-size:40px;
+   
+    
+}
+.banner-left{
+    flex-basis: 70%;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-bottom-width: 5px;
+    margin-left: 5px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    padding-bottom: 5px;
+    border-left-width: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    line-height: 3;
+    width: 200px;
+    height: 200px;
+}
+.banner-right{
+    flex-basis: 50%;
+}
+.mail:hover{
+    color: rgb(233, 217, 217);
+
+}
+.font{
+    line-height: normal;
+}
+.img{
+    border-radius: 50%;
+}
+.list-style-1{
+
+}
+.list-style-1 li{
+    list-style: none;
+    padding-left:30px ;
+}
+.list-style-1 li:before{
+    content: "";
+    display: inline-block;
+    background: rgb(235,229,221);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -23px;
+    position: relative;
+}
+.anchor{
+    color: rgb(92, 168, 194);
+}
+.anchor:hover{
+    color: rgb(109, 177, 109);
+}
+.anchor:active{
+    color: lightslategray;
+}
+h3{
+    font-family: 'Amarante', cursive;  
+    text-decoration: underline;
+ text-align:center;
+    font-size: 50px;
+padding-top:20px;
+}
